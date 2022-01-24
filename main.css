@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+
 @media screen and (max-width: 1366px) {
     html, body {
         overflow: hidden;
     }
+    
 
     body {
         background-image: url('fundo_v2.jpg');
@@ -22,7 +25,7 @@
 
     .content h1 {
         padding: 10px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Changa One', cursive, Verdana, Arial, Helvetica, sans-serif;
         font-size: 45px;
         color: white;
         text-decoration: none;
@@ -36,7 +39,7 @@
         display: inline-block;
         list-style: none;
         padding: 10px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-family: 'Changa One', cursive, Verdana, Arial, Helvetica, sans-serif;
         font-size: 30px;
         color: white;
         text-decoration: none;
@@ -85,7 +88,7 @@
 
         .content h1 {
             padding: 10px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'Changa One', cursive, Verdana, Arial, Helvetica, sans-serif;
             font-size: 45px;
             color: white;
             text-decoration: none;
@@ -94,12 +97,12 @@
             text-align: center;
             letter-spacing: 2px;
         }
-
+    
         .timer li {
             display: inline-block;
             list-style: none;
             padding: 10px;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-family: 'Changa One', cursive, Verdana, Arial, Helvetica, sans-serif;
             font-size: 30px;
             color: white;
             text-decoration: none;

@@ -7,20 +7,42 @@
         background-color: aquamarine;
         background-repeat: no-repeat;
         background-size: cover;
+        user-select: none;
     }
 
     .content {
         width: 100vw;
         height: 100vh;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .content h1 {
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 45px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 5px black;
+        text-align: center;
+        letter-spacing: 2px;
     }
 
     .timer li {
         display: inline-block;
         list-style: none;
+        padding: 10px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30px;
+        color: white;
+        text-decoration: none;
+        text-transform: uppercase;
+        text-shadow: 3px 3px 5px black;
+        text-align: center;
+        letter-spacing: 2px;
     }
 
     .ytplayer {
@@ -47,6 +69,7 @@
             background-image: url('fundo.png');
             background-repeat: no-repeat;
             background-size: cover;
+            user-select: none;
 
         }
 

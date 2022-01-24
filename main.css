@@ -4,7 +4,7 @@
     }
 
     body {
-        background-color: aquamarine;
+        background-image: url('fundo.jpeg');
         background-repeat: no-repeat;
         background-size: cover;
         user-select: none;
@@ -66,7 +66,7 @@
         }
 
         body {
-            background-image: url('fundo.png');
+            background-image: url('fundo.jpeg');
             background-repeat: no-repeat;
             background-size: cover;
             user-select: none;

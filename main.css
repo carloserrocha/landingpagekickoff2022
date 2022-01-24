@@ -1,0 +1,70 @@
+@media screen and (max-width: 1366px) {
+    html, body {
+        overflow: hidden;
+    }
+
+    body {
+        background-color: aquamarine;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .content {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ytplayer {
+        width: 640px;
+        height: 360px;
+
+    }
+
+    .forms {
+        text-align: end;
+        max-width: 75%;
+        max-height: 75vh;
+        padding-left: 5px;
+    }
+}
+
+@supports (display: flex) {
+    @media screen and (min-width: 1367px) {
+        html, body {
+            overflow: hidden;
+        }
+
+        body {
+            background-image: url('fundo.png');
+            background-repeat: no-repeat;
+            background-size: cover;
+
+        }
+
+        .content {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .ytplayer {
+            width: 640px;
+            height: 360px;
+
+        }
+
+        .forms {
+            text-align: end;
+            max-width: 100%;
+            max-height: 100vh;
+            padding-left: 15px;
+        }
+    }
+}

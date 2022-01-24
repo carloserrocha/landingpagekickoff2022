@@ -4,7 +4,7 @@
     }
 
     body {
-        background-image: url('fundo_v2.png');
+        background-image: url('fundo_v2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         user-select: none;
@@ -67,7 +67,7 @@
         }
 
         body {
-            background-image: url('fundo_v2.png');
+            background-image: url('fundo_v2.jpg');
             background-repeat: no-repeat;
             background-size: cover;
             user-select: none;

@@ -5,7 +5,7 @@ const day = hour * 24;
 
 let data_final = '01/27/2022' 
 
-let count_down = new Date('01/27/2022 09:00:00').getTime();
+let count_down = new Date('01/27/2022 08:30:00').getTime();
 let x = setInterval(() => countDown(), second);
 
 function countDown() {

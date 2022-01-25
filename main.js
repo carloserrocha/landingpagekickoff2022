@@ -3,9 +3,9 @@ const minute = second * 60;
 const hour = minute * 60;
 const day = hour * 24;
 
-let data_final = '01/27/2022' 
+let data_final = '01/27/2022'
 
-let count_down = new Date('01/27/2022 08:30:00').getTime();
+let count_down = new Date('01/27/2022 8:30:00').getTime();
 let x = setInterval(() => countDown(), second);
 
 function countDown() {
@@ -16,6 +16,10 @@ function countDown() {
   document.getElementById('hours').innerText = Math.floor(diff % day / hour);
   document.getElementById('minutes').innerText = Math.floor(diff % hour / minute);
   document.getElementById('seconds').innerText = Math.floor(diff % minute / second);
+
+  if (diff < 1000) {
+    window.location.href = "https://kickoff2022.teltecsolutions.com.br/live"
+  }
 }
 
 function resetCountdown() {

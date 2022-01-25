@@ -4,7 +4,7 @@
     html, body {
         overflow: hidden;
     }
-    
+
 
     body {
         background-image: url('fundo_v2.jpg');
@@ -49,18 +49,6 @@
         letter-spacing: 2px;
     }
 
-    .ytplayer {
-        width: 640px;
-        height: 360px;
-
-    }
-
-    .forms {
-        text-align: end;
-        max-width: 75%;
-        max-height: 75vh;
-        padding-left: 5px;
-    }
 }
 
 @supports (display: flex) {
@@ -97,7 +85,7 @@
             text-align: center;
             letter-spacing: 2px;
         }
-    
+
         .timer li {
             display: inline-block;
             list-style: none;
@@ -112,17 +100,6 @@
             letter-spacing: 2px;
         }
 
-        .ytplayer {
-            width: 640px;
-            height: 360px;
 
-        }
-
-        .forms {
-            text-align: end;
-            max-width: 100%;
-            max-height: 100vh;
-            padding-left: 15px;
-        }
     }
 }

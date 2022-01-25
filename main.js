@@ -18,7 +18,7 @@ function countDown() {
   document.getElementById('seconds').innerText = Math.floor(diff % minute / second);
 
   if (diff < 1000) {
-    window.location.href = "https://dev.kickoff2022.teltecsolutions.com.br/teste"
+    window.location.href = "https://dev.kickoff2022.teltecsolutions.com.br/live"
   }
 }
 

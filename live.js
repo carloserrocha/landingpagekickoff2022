@@ -6,13 +6,16 @@ firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
 var player;
 function onYouTubePlayerAPIReady() {
     player = new YT.Player('ytplayer', {
-        videoId: 'qh5RXwpPZ3M',
-         events: {
-            'onReady': onPlayerReady
+        videoId: 'M7lc1UVf-VE',
+        playerVars: {
+            'autoplay': 1
+        },
+        events: {
+            'onReady': onPlayerReady,
         }
     });
 }
 
 function onPlayerReady(event) {
-    event.target.playVideo(true);
+    event.target.playVideo();
 }

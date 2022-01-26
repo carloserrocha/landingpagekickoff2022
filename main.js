@@ -12,7 +12,6 @@ function countDown() {
   let now = new Date(Date.now()).getTime();
   let diff = count_down - now;
 
-  document.getElementById('days').innerText = Math.floor(diff / day);
   document.getElementById('hours').innerText = Math.floor(diff % day / hour);
   document.getElementById('minutes').innerText = Math.floor(diff % hour / minute);
   document.getElementById('seconds').innerText = Math.floor(diff % minute / second);

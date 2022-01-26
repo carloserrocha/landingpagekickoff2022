@@ -7,6 +7,7 @@
 
 
     body {
+        cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Volleyball_Pointer.png), pointer;
         background-image: url('fundo_v2.jpg');
         background-repeat: no-repeat;
         background-size: cover;
@@ -58,6 +59,7 @@
         }
 
         body {
+            cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Volleyball_Pointer.png), pointer;
             background-image: url('fundo_v2.jpg');
             background-repeat: no-repeat;
             background-size: cover;
